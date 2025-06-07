@@ -1,4 +1,4 @@
-package `com.minibank.actors`
+package `com.minibank.bank.actors`
 
 import akka.actor.typed.ActorRef
 import akka.persistence.typed.scaladsl.Effect
