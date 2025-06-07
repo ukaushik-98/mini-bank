@@ -4,6 +4,8 @@ lazy val akkaHttpVersion = "10.2.8"
 lazy val akkaVersion     = "2.6.9"
 lazy val circeVersion    = "0.14.1"
 
+enablePlugins(ScalafmtPlugin)
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http"                  % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-actor-typed"           % akkaVersion,
